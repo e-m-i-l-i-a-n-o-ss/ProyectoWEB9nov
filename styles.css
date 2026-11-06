@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#listaClientes {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+#listaClientes li {
+  padding: 4px 0;
+}
+
+#clienteActual {
+  background-color: #eef;
+  padding: 10px;
+  border: 1px solid #ccd;
+  margin-bottom: 15px;
+}
+
+#estadisticas {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+}
